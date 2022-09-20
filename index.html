@@ -8,26 +8,109 @@
       https://ninjasfiles.s3.amazonaws.com/0000000000001395.png -->
 
       <form action="" method="post">
-
+          <label for="email"> Email </label>
+          <input type = "email" placeholder="abc@gmail.com" id="email" required name="email"/>
+          <label for="password"> Password </label>
+          <input type="password" id="password" required name="password"/>
+          <button type="submit">
+              <img src = "https://ninjasfiles.s3.amazonaws.com/0000000000001394.png" height="10" width="20"/>
+              Login
+          </button>
       </form>
     </header>
-
     <br />
+    <hr />
     <br />
-
     <main>
       <section>
-        <h3></h3>
+        <h3>
+          <a href = "blog.codingninjas.in">
+              Coding Ninjas Blog
+          </a>
+        </h3>
       </section>
-
+      <img src = "https://ninjasfiles.s3.amazonaws.com/0000000000001395.png" />
       <br />
       <br />
-
+      <hr />
       <section>
-        <h2></h2>
-
+        <h2>REGISTRATION</h2>
         <form action="" method="post">
-          <table></table>
+          <table>
+              <tr>
+                  <td>
+                      <label for="fname"> First Name: </label>
+                  </td>
+                  <td>
+                      <input type = "text" id = "fname" name = "fname" required/>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <label for="lname"> Last Name: </label>
+                  </td>
+                  <td>
+                      <input type = "text" id = "lname" name = "lname" required/>
+                  </td>
+              </tr>
+              <tr>
+                  <td></td>
+                  <td>
+                      <label for="flatno">  Flat No./House No. </label>
+                  </td>
+                   <td>
+                      <input type = "text" id = "flatno" name = "flatno" required/>
+                  </td>
+              </tr>
+              <tr>
+                   <td>Current Address:</td>
+                   <td>
+                      <label for="locality">Locality</label>
+                  </td>
+                   <td>
+                      <input type = "text" id = "locality" name = "locality" required/>
+                  </td>
+              </tr>
+              <tr>
+                  <td></td>
+                  <td>
+                      <label for="city"> City </label>
+                  </td>
+                   <td>
+                      <input type = "text" id = "city" name = "city" required/>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <label for=""><b>Is Current address and Permanent address same?</b></label>
+                  </td>
+                  <td>
+                      <input type = "radio"  name = "address" value = "Yes" checked /> Yes
+                      <input type = "radio"  name = "address" value = "No" /> No
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <label for="email"> Email </label>
+                  </td>
+                   <td>
+                      <input type = "email" id = "email" name = "email" placeholder="abc@gmail.com" required/>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <label for="password"> Password </label>
+                  </td>
+                   <td>
+                      <input type = "password" id = "password" name = "password" required/>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <input type = "submit" value="Register">
+                  </td>
+              </tr>
+          </table>
         </form>
       </section>
     </main>
